@@ -319,7 +319,7 @@ class GRPOTrainer(Trainer):
                     n=self.num_generations,
                     temperature=args.temperature,
                     max_tokens=self.max_completion_length,
-                    stop_token_ids=[151643, 151645,151665],
+                    stop_token_ids=[151643, 151645, 151644, 151665],
                     top_p=0.8,
                     top_k=20,
                     repetition_penalty=1.0,
